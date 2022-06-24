@@ -1,0 +1,111 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  font-size: 1.5rem;
+  margin-right: 70px;
+}
+
+
+.john h1 {
+  font-size: 75px;
+  margin-top: 50px;
+
+}
+.john a.flavors {
+  background: #393939;
+  border: 0;
+  outline: none;
+  padding: 15px 35px;
+  color: #fff;
+  margin-top: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.john button {
+  background: #393939;
+  border: 0;
+  outline: none;
+  padding: 15px 35px;
+  color: #fff;
+  margin-top: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #3AB0FF;
+}
+
+.indicator span {
+  display: inline-block;
+  background: #3a3a3a;
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  margin-top: 70px;
+  border-radius: 50% /* makes it a circle */
+}
+
+.indicator {
+  margin-top: 150px;
+}
+
+.indicator span.white {
+  background: white;
+}
+.incident {
+  width: 300px;
+}
+
+.cta {
+  position: absolute;
+  width: 25%;
+  min-width: 250px;
+  right: 8%;
+  bottom: 100px;
+}
+
+.flavor{
+  color: black;
+    margin-left: 50px;
+}
+
+.flavor:hover {
+  color: white;
+}
+
+.john {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000;
+  background-image: url(https://c.tenor.com/Anhf93tvmL0AAAAd/john-xina-xina.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20%;
+  color: #fff;
+  padding: 0;
+}
